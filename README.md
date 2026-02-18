@@ -1,2 +1,0 @@
-# sergey-site
-Landing page — auto-deployed
