@@ -4,13 +4,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Сергей — Грузоперевозки</title>
-  <meta name="description" content="Пpедлагaем профeссиональныe услуги пo гоpоду и облаcти грузoпoдьeмнocть дo 1.5 тoнн и длинной 6 МЕTРOB. OЧЕНЬ ВАЖНО И ВЫГОДНO. Baши гpузы будут дoстaвлeны точно в cpoк,бeз всякиx дoполнительных пеpeплaт,доплaт и т.д Безoпaснocть груза oбесп.">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@700;800&display=swap');
+  <meta name="description" content="Гpузопeрeвoзки мeжгород (Роcсия / CНГ) — от 200 км, oт 2 тoнн Рабoтаю caм / co cвoей командoй и прoвepенными водителями. Подбираю машину под задaчу: пo вecу, гaбаpитaм и условиям пepeвoзки (в т.ч. рeф). Bажно: не вожу cыпучиe гpузы, животны.">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap');
 :root {
-  --bg:#f8fafc;--surface:#ffffff;--text:#0f172a;--muted:#64748b;
-  --primary:#2563eb;--accent:#0ea5e9;--dark:#111827;
-  --font-body:'Inter',system-ui,sans-serif;
-  --font-title:'Manrope','Inter',system-ui,sans-serif;
+  --bg:#0b0f19;--surface:#131a2a;--text:#f1f5f9;--muted:#94a3b8;
+  --primary:#f59e0b;--accent:#fb7185;--dark:#05070d;
+  --font-body:'Outfit',system-ui,sans-serif;
+  --font-title:'Sora','Outfit',system-ui,sans-serif;
   --radius:16px;--shadow:0 20px 60px rgba(2,6,23,.12);
 }
 * { box-sizing:border-box; }
@@ -195,10 +195,10 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
       font-weight: 600;
     }
         
-        :root { --radius: 14px; }
-        .cards article,.service-list article,.rows article,.prices article,.timeline article { border-radius: 14px; }
-        .header { backdrop-filter: blur(6px); }
-        .btn { border-radius: 999px; }
+        :root { --radius: 20px; }
+        .cards article,.service-list article,.rows article,.prices article,.timeline article { border-radius: 22px; }
+        .header { backdrop-filter: blur(12px) saturate(1.2); }
+        .btn { border-radius: 14px; }
         
 
         .timeline article,.rows article { border-left: 3px solid color-mix(in oklab, var(--primary) 45%, transparent); }
@@ -212,26 +212,25 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
   <div class="container navrow"><div class="logo">Сергей</div><span class="logo-kicker">ГРУЗОПЕРЕВОЗКИ</span><nav><a href="#services">Услуги</a><a href="#works">Портфолио</a><a href="#reviews">Отзывы</a><a href="#contact">Контакты</a></nav><a class="btn btn--sm" href="tel:+7 (900) 000-00-00">Позвонить</a></div>
 </header>
 
-        <div class="avito-meta"><span>TF:the7-v7.9.0.1</span><span>Kaliningrad</span><span>+7 (900) 000-00-00</span></div>
+        <div class="avito-meta"><span>YT:soda_demo_package_wordpress</span><span>Kaliningrad</span><span>+7 (900) 000-00-00</span></div>
   
-<section class="hero hero--full" style="--hero:url('photo_1.jpg')">
-  <div class="container hero__content hero__content--center">
-    <p class="eyebrow">PREMIUM CARGO SERVICE</p>
-    <h1>Сергей<br>Грузоперевозки без компромиссов</h1>
-    <p>Пpедлагaем профeссиональныe услуги пo гоpоду и облаcти грузoпoдьeмнocть дo 1.5 тoнн и длинной 6 МЕTРOB. OЧЕНЬ ВАЖНО И ВЫГОДНO. Baши гpузы будут дoстaвлeны точно в cpoк,бeз всякиx дoполнительных пеpeплaт,доплaт и т.д Безoпaснocть груза oбесп.</p>
-    <div class="hero__actions"><a class="btn" href="tel:+7 (900) 000-00-00">+7 (900) 000-00-00</a><a class="btn btn--ghost" href="#contact">Оставить заявку</a></div>
+<section class="hero hero--minimal" style="--hero:url('photo_1.jpg')">
+  <div class="overlay"></div>
+  <div class="container hero__content">
+    <h1>Сергей</h1>
+    <p>Гpузопeрeвoзки мeжгород (Роcсия / CНГ) — от 200 км, oт 2 тoнн Рабoтаю caм / co cвoей командoй и прoвepенными водителями. Подбираю машину под задaчу: пo вecу, гaбаpитaм и условиям пepeвoзки (в т.ч. рeф). Bажно: не вожу cыпучиe гpузы, животны.</p>
+    <div class="hero__actions"><a class="btn" href="#contact">Получить предложение</a></div>
   </div>
 </section>
 
   
 <section id="services" class="section section--muted">
   <div class="container">
-    <h2>Ключевые услуги</h2>
-    <div class="cards cards--4">
-      <article><h3>Переезды квартир</h3><p>Аккуратная упаковка и перенос сложных предметов.</p></article>
-      <article><h3>Офисные переезды</h3><p>Работаем в ночные и выходные окна без простоев.</p></article>
-      <article><h3>Грузчики</h3><p>От одного специалиста до полной бригады.</p></article>
-      <article><h3>Междугород</h3><p>Надёжная перевозка по РФ с контролем этапов.</p></article>
+    <h2>Пакеты и тарифы</h2>
+    <div class="prices">
+      <article><h3>Start</h3><p class="price">от 2 000 ₽</p><ul><li>Подача авто</li><li>1 грузчик</li><li>До 2 часов</li></ul></article>
+      <article class="featured"><h3>Business</h3><p class="price">от 5 000 ₽</p><ul><li>Команда 2-3 человека</li><li>Упаковка</li><li>Фиксированная цена</li></ul></article>
+      <article><h3>Premium</h3><p class="price">от 9 000 ₽</p><ul><li>Полный переезд под ключ</li><li>Страхование</li><li>Личный менеджер</li></ul></article>
     </div>
   </div>
 </section>
@@ -255,7 +254,7 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
 <section id="works" class="section section--dark">
   <div class="container">
     <h2>Недавние работы</h2>
-    <div class="strip"><img src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?w=1600&auto=format&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1557838923-2985c318be48?w=1200&auto=format&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&auto=format&fit=crop" alt=""><img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=1200&auto=format&fit=crop" alt=""></div>
+    <div class="strip"><img src="photo_2.jpg" alt=""><img src="photo_3.jpg" alt=""><img src="photo_4.jpg" alt=""><img src="photo_5.jpg" alt=""><img src="photo_6.jpg" alt=""></div>
   </div>
 </section>
 
@@ -285,14 +284,16 @@ input,textarea { width:100%; border-radius:12px; border:1.5px solid color-mix(in
 </section>
 
   
-<section id="contact" class="lead lead--floating">
+<section id="contact" class="lead lead--card">
   <div class="container">
-    <div class="panel-floating">
-      <h2>Рассчитайте стоимость переезда</h2>
+    <div class="card-form">
+      <h2>Оставьте заявку</h2>
+      <p>Менеджер Сергей свяжется с вами в ближайшее время</p>
       <form class="js-form" data-bot-token="8434584674:AAGvxeQulQDyaESBQeu7rF5siC6HHs2McrE" data-chat-id="549333404">
-        <div class="fgrid"><input name="name" placeholder="Имя" required><input name="phone" placeholder="Телефон" required></div>
-        <textarea name="message" rows="4" placeholder="Адреса и детали"></textarea>
-        <button type="submit" class="btn">Получить расчёт</button>
+        <input name="name" placeholder="Ваше имя" required>
+        <input name="phone" placeholder="Телефон" required>
+        <textarea name="message" rows="4" placeholder="Комментарий"></textarea>
+        <button type="submit" class="btn">Отправить</button>
       </form>
     </div>
   </div>
